@@ -1,0 +1,27 @@
+# ==============================================================================
+# Jetson ERP - Environment Requirements
+# From Perspective Images to 360° Panorama on NVIDIA Jetson Orin Nano Super 8GB
+# ==============================================================================
+
+# Core scientific computing & Computer Vision
+numpy>=1.24.0
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+scipy>=1.10.0
+scikit-image>=0.21.0
+pillow>=9.5.0
+
+# Deep Learning & Evaluation metrics
+torch>=2.0.0
+torchvision>=0.15.0
+lpips>=0.1.4
+
+# Feature Matching & Geometry (for baseline & advanced stitching)
+lightglue>=0.0.4
+kornia>=0.7.0
+
+# Utilities & Visualization
+tqdm>=4.65.0
+matplotlib>=3.7.0
+openpyxl>=3.1.0
+python-pptx>=0.6.21
